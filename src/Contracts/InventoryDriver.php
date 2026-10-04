@@ -13,7 +13,7 @@ interface InventoryDriver
 {
     
 
-    public function getProducts(Carbon $since): Collection;
+    public function getProducts(Carbon $since): Collection;////
 
     public function fetchProduct(string $remoteId): NexusProduct;
 
